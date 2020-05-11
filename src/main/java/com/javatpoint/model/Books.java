@@ -1,6 +1,7 @@
 package com.javatpoint.model;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 //mark class as an Entity 
@@ -11,6 +12,7 @@ public class Books
 {
 //Defining book id as primary key
 @Id
+@GeneratedValue
 @Column
 private int bookid;
 @Column
