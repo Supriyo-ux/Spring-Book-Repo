@@ -5,10 +5,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 //mark class as an Entity 
-@Entity
+@Entity(name="bookvalue")
 //defining class name as Table name
-@Table
-public class Books
+
+public class Book
 {
 //Defining book id as primary key
 @Id
